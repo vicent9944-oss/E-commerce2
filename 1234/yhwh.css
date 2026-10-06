@@ -1,0 +1,19 @@
+.section-title::after {
+    content: '';
+    width: 80px;
+    height: 5px;
+    display: block;
+    margin: 10px auto 0;
+    border-radius: var(--border-radius-s);
+    background: rgba(89, 72, 238, 0.877);
+}
+
+.section-title h4:after {
+	position: absolute;
+	left: 0;
+	bottom: -4px;
+	height: 2px;
+	width: 70px;
+	background: #ca1515;
+	content: "";
+}
