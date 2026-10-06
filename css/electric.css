@@ -1,0 +1,31 @@
+:root {
+    --primary-color: #99a98f;
+    --decent-color: #d6e8db;
+    --accent-color: #fff;
+    --secondary-color: rgb(9, 189, 9);
+    --font-family: 'times',sans-serif;
+    --text-decoration: gray;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;
+    outline: none;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+body {
+    background: #fff;
+    padding: 0 2%;
+}
+.header {
+    padding: 1rem 0;
+}
+.header--menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
